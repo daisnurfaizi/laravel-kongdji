@@ -1,0 +1,824 @@
+.logatas {
+  position: relative;
+  z-index: 1;
+  background-color: #3d2120;
+}
+.logatas img {
+  width: 180px;
+  height: 45px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logatas P {
+  font-family: "Roboto";
+  font-weight: lighter;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+.navbar {
+  font-family: "lato";
+  font-weight: normal;
+  margin-top: -17px;
+  background-color: #9d5a06;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.nav-link {
+  padding: 5px 0;
+  margin: 0 10px;
+  color: white !important;
+}
+.nav-link:hover {
+  background-color: #d6cbcb;
+  color: #3d2120 !important;
+  border-radius: 4px;
+}
+/* Header */
+.jumbotron {
+  height: 800px;
+  margin-top: 0px;
+  /* position: relative; */
+  background: linear-gradient(#3d2120, #9d5a06);
+}
+.jumbotron img {
+  /* position: relative; */
+  width: 550px;
+  height: 550px;
+}
+.info1 {
+  font-family: "Roboto";
+  color: white;
+  margin-top: -100px;
+}
+.btn-home {
+  font-family: "Roboto";
+  color: white;
+  border: 2px solid white;
+  border-radius: 5px;
+  text-shadow: 2px 2px 2px solid #d6cbcb;
+  width: 100px;
+  height: 40px;
+  margin: 10px 0;
+}
+
+.btn-home:hover {
+  background-color: #9d5a06;
+  color: white;
+}
+
+.btn2 {
+  margin-top: 70px;
+}
+
+.jumbotron .instagram {
+  width: 35px;
+  height: 35px;
+  float: left;
+  margin-top: 52px;
+  margin-left: 220px;
+}
+
+.jumbotron h4 {
+  font-family: "Roboto";
+  font-size: 18px;
+  color: white;
+  margin-top: 65px;
+}
+
+.jumbotron .facebook {
+  width: 35px;
+  height: 35px;
+  float: right;
+  margin-top: 50px;
+  margin-right: 200px;
+}
+/* Akhir Header */
+
+/* Profile */
+.profile {
+  background-color: #d6cbcb;
+  padding: 50px 0;
+  margin-top: -32px;
+  font-family: "lato";
+  font-weight: bold;
+}
+.profile P {
+  text-align: justify;
+}
+.profile h3 {
+  margin: 20px 0;
+}
+.paragraf {
+  font-weight: normal;
+  color: #3d2120;
+  font-size: 20px;
+  margin-top: 50px;
+}
+.gambarprofile {
+  width: 350px;
+  height: 350px;
+}
+.viewdetail {
+  color: #9d5a06;
+  text-align: center;
+  font-family: "lato";
+  font-size: 16px;
+  width: 130px;
+  height: 40px;
+  border: 3px solid #3d2120;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.viewdetail:hover {
+  background-color: #9d5a06;
+  color: white !important;
+}
+.modal {
+  font-family: "lato";
+  font-size: 16px;
+  text-transform: uppercase;
+}
+.modal-header {
+  background-color: #3d2120;
+  color: white !important;
+}
+
+.modal-header h3 {
+  text-align: center;
+  font-size: 20px;
+}
+.vm h3 {
+  font-size: 28px;
+  font-weight: bold;
+  color: #593218;
+}
+.vm hr {
+  text-align: center;
+  border: 2px solid #3d2120;
+}
+.visi p {
+  text-align: right;
+  color: #9d5a06;
+}
+.misi p {
+  text-align: left;
+}
+.misi p a {
+  text-decoration: none;
+  color: #3d2120;
+}
+.misi p a:hover {
+  color: #9d5a06 !important;
+}
+#ornamen2 {
+  width: 300px;
+  height: 330px;
+  margin-top: -280px;
+  float: left;
+  margin-left: -140px;
+}
+/* Akhir Profile */
+
+/* Product */
+.product {
+  background-color: #3d2120;
+  padding: 40px 0;
+}
+
+.produk {
+  margin: 20px 0;
+}
+
+.card {
+  font-family: "lato";
+  font-style: italic;
+  font-size: 18px;
+  color: white;
+  background-color: #9d5a06;
+  border: 10px solid white;
+  margin-left: auto;
+  margin-right: auto;
+}
+.card img {
+  margin-top: 20px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+.card-footer {
+  font-family: "lato";
+  font-style: italic;
+  height: 60px;
+  background-color: white;
+}
+
+.card-footer a {
+  font-size: 18px;
+  text-decoration: none;
+  color: #3d2120 !important;
+}
+.next {
+  margin-top: 250px;
+  color: white;
+}
+.next p {
+  font-size: 24px;
+  font-family: "lato";
+  font-style: italic;
+}
+.next a {
+  text-decoration: none;
+  color: #9d5a06 !important;
+  font-style: italic;
+}
+.next a:hover {
+  color: white !important;
+}
+.ornamen3 {
+  width: 400px;
+  height: 400px;
+  margin-top: -360px;
+  float: inline-end;
+}
+/* Akhir Produk */
+
+/* Franchise */
+.franchise {
+  background-color: #d6cbcb;
+}
+.info-franchise {
+  background-color: #9d5906d5;
+  box-shadow: 0 3px 20px black;
+  border-radius: 5px;
+  margin-top: -30px;
+  color: white;
+  font-family: "Roboto";
+  font-style: italic;
+  padding: 10px 10px;
+}
+.info-franchise img {
+  width: 30px;
+  height: 30px;
+}
+.info-franchise img:hover {
+  width: 50px;
+  height: 50px;
+  box-shadow: 0 3px 20px #2bb96b;
+}
+.teks1 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.info2 {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+/* Akhir Franchise */
+
+/* Menu About */
+.about1 {
+  background-color: #d6cbcb;
+  padding-top: 50px;
+  color: #9d5a06;
+  font-size: 18px;
+  height: 800px;
+}
+
+.about1 h4 {
+  color: #3d2120;
+  font-weight: bold;
+}
+
+.tag-line {
+  background-color: #9d5a06;
+  padding-top: 5px;
+  border-radius: 8px;
+  border: 2px solid #593218;
+  box-shadow: 0 3px 8px #593218;
+  margin-bottom: 20px;
+}
+
+.join {
+  border: 2px solid #593218;
+  border-radius: 5px;
+  color: #9d5a06;
+  font-weight: bold;
+  box-shadow: 0 3px 5px #593218;
+}
+
+.join:hover {
+  background-color: #9d5a06;
+}
+
+.ornamen-mid {
+  float: inline-start;
+  margin-top: -600px;
+  opacity: 80%;
+}
+
+.ornamen-mid img {
+  width: 300px;
+  height: 500px;
+}
+
+.ornamen-mid1 {
+  float: inline-end;
+  margin-top: -350px;
+  opacity: 80%;
+}
+
+.ornamen-mid1 img {
+  width: 300px;
+  height: 300px;
+}
+/* Akhir Menu About */
+
+/* location */
+.location {
+  background-color: #3d2120;
+  height: 800px;
+}
+
+.location h3 {
+  color: white;
+  text-transform: uppercase;
+  font-family: "lato";
+  font-weight: bold;
+  padding-top: 40px;
+  font-size: 24px;
+}
+
+.backlok {
+  background-color: #9d5a06;
+  border: 4px solid white;
+  opacity: 59%;
+  width: 600px;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.backlok img {
+  opacity: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.tekswilayah {
+  padding: 5px 0;
+  margin-top: -520px;
+  font-family: "lato";
+}
+
+.wilayah1 {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 3px 0;
+  /* margin-left: -40px; */
+}
+
+.wilayah1:hover {
+  text-decoration: none;
+  color: #3d2120 !important ;
+}
+
+.wilayah2 {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 3px 0;
+  /* margin-right: -40px; */
+}
+
+.wilayah2:hover {
+  text-decoration: none;
+  color: #3d2120 !important ;
+}
+/* Akhir Location */
+
+/* Menu Contact */
+.contact {
+  background-color: #9d5a06;
+  padding-top: 20px;
+  font-family: "lato";
+  color: #3d2120;
+}
+
+.contact1 {
+  padding: 5px 0;
+}
+
+.contact1 p {
+  font-size: 18ox;
+  font-weight: bold;
+  padding: 3px 0;
+}
+
+.contact1 img {
+  width: 35px;
+  height: 35px;
+  margin-right: 10px;
+}
+
+.contactmid {
+  text-align: center;
+  padding: 10px 0;
+  font-weight: bold;
+}
+.contactmid a {
+  display: block;
+  color: #3d2120;
+  padding-bottom: 7px;
+}
+
+.contactmid a:hover {
+  text-decoration: none;
+  color: white !important;
+}
+
+.box {
+  background-color: #593218;
+  border-radius: 10px;
+}
+.box img {
+  width: 100px;
+  height: 100px;
+  padding: 5px 3px;
+  margin: 0 15px;
+}
+
+.sertifikat p {
+  padding-top: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.footer1 {
+  margin-top: 10px;
+  text-align: center;
+  background-color: #3d2120;
+  color: #9d5a06;
+  height: 50px;
+}
+
+.footer1 h4 {
+  padding-top: 5px;
+  font-size: 16px;
+}
+/* Akhir Menu Contact */
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (min-width: 992px) {
+  .logatas img {
+    width: 280px;
+    height: 70px;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logatas p {
+    font-size: 18px;
+  }
+
+  .navbar {
+    background-color: #3d212075;
+  }
+
+  /* Header */
+  .jumbotron {
+    height: 886px;
+    margin-top: -150px;
+  }
+  .jumbotron img {
+    width: 650px;
+    height: 650px;
+    margin-top: 100px;
+  }
+
+  .info1 {
+    margin-top: -200px;
+  }
+
+  .btn-home {
+    margin: 0;
+  }
+  .btn2 {
+    margin-top: 65px;
+  }
+
+  .jumbotron .instagram {
+    float: right;
+    margin-top: 90px;
+  }
+
+  .jumbotron h4 {
+    margin-top: 100px;
+  }
+
+  .jumbotron .facebook {
+    float: left;
+    margin-top: 90px;
+  }
+
+  .ornamen {
+    position: relative;
+    margin-top: -960px;
+    margin-left: -120px;
+    /* z-index: 1; */
+  }
+
+  .ornamen img {
+    float: inline-start;
+    height: 400px;
+    width: 400px;
+  }
+
+  .ornamen1 {
+    display: none;
+  }
+
+  /* Akhir Header */
+
+  /* Profile */
+  .gambarprofile {
+    width: 400px;
+    height: 400px;
+  }
+
+  /* Akhir Profile */
+
+  /* Product */
+  .product {
+    background-color: #3d2120;
+    padding: 40px 0;
+  }
+
+  .produk {
+    margin: 20px 0;
+  }
+
+  .card {
+    font-family: "lato";
+    font-style: italic;
+    font-size: 18px;
+    color: white;
+    background-color: #9d5a06;
+    border: 10px solid white;
+    height: 400px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .card img {
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+  }
+
+  .card-footer {
+    font-family: "lato";
+    font-style: italic;
+    height: 60px;
+    background-color: white;
+  }
+
+  .card-footer a {
+    font-size: 18px;
+    text-decoration: none;
+    color: #3d2120 !important;
+  }
+
+  .next {
+    margin-top: 250px;
+    color: white;
+  }
+
+  .next p {
+    font-size: 24px;
+    font-family: "lato";
+    font-style: italic;
+  }
+
+  .next a {
+    text-decoration: none;
+    color: white !important;
+    font-style: italic;
+  }
+
+  .next a:hover {
+    color: #9d5a06 !important;
+  }
+
+  .ornamen3 {
+    width: 400px;
+    height: 400px;
+    margin-top: -360px;
+    float: inline-end;
+  }
+  /* Akhir Produk */
+
+  /* Menu About  */
+  .about1 {
+    padding-top: 70px;
+    height: 650px;
+  }
+  .ornamen-mid {
+    float: inline-start;
+    margin-top: -520px;
+    opacity: 80%;
+  }
+
+  .ornamen-mid1 {
+    float: inline-end;
+    margin-top: -350px;
+  }
+
+  .ornamen-mid1 img {
+    width: 400px;
+    height: 400px;
+  }
+  /* Akhir Menu About */
+
+  /* location */
+  .backlok {
+    width: 800px;
+  }
+  /* Akhir Location */
+}
+
+@media (max-width: 575.98px) {
+  /* header  */
+  .jumbotron img {
+    width: 330px;
+    height: 300px;
+    margin-top: 100px;
+  }
+
+  .info1 {
+    margin-top: 0px;
+  }
+
+  .btn2 {
+    margin-top: 10px;
+  }
+
+  .jumbotron .instagram {
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+
+  .jumbotron h4 {
+    margin-top: -25px;
+  }
+
+  .jumbotron .facebook {
+    margin-top: -43px;
+    margin-right: 50px;
+  }
+
+  /* akhir header */
+
+  /* Profile */
+  .paragraf {
+    font-size: 16px;
+  }
+  .vm h3 {
+    font-size: 20px;
+  }
+  .viewdetail {
+    font-size: 14px;
+    width: 120px;
+    height: 35px;
+    margin-bottom: 20px;
+  }
+  .visi {
+    background-color: #593218;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  .visi p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .misi {
+    background-color: #9d5a06;
+    font-size: 14px;
+  }
+  .misi p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .misi p a:hover {
+    color: #d6cbcb !important;
+  }
+  #ornamen2 {
+    display: none;
+  }
+  /* Akhir Profike */
+
+  /* Product */
+  .card {
+    width: 300px;
+  }
+  .next {
+    margin-top: 60px;
+  }
+  .ornamen3 {
+    display: none;
+  }
+  /* Akhir Product */
+
+  /* Franchise */
+  .info2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  /* Akhir Franchise */
+
+  /* Menu About */
+  .about1 {
+    height: 800px;
+  }
+  .tag-line h4 {
+    font-size: 16px;
+  }
+  .ornamen-mid {
+    display: none;
+  }
+
+  .ornamen-mid1 {
+    display: none;
+  }
+
+  /* Akhir Menu About */
+
+  /* Menu Location Mobile */
+  .location h3 {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .backlok {
+    width: 400px;
+    height: 570px;
+  }
+
+  .backlok img {
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+  }
+
+  .tekswilayah {
+    margin-top: -550px;
+  }
+
+  .wilayah1 {
+    margin-left: -40px;
+  }
+  .wilayah2 {
+    margin-right: -50px;
+  }
+  /* Akhir Menu Location Mobile */
+}
+
+@media screen and (max-width: 400px) {
+  .about1 {
+    height: 850px;
+  }
+
+  .location {
+    height: 900px;
+  }
+
+  .location h3 {
+    font-size: 16px;
+  }
+
+  .backlok {
+    width: 350px;
+    height: 700px;
+  }
+
+  .backlok img {
+    margin-top: 150px;
+  }
+
+  .tekswilayah {
+    margin-top: -680px;
+  }
+}

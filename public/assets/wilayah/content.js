@@ -1,0 +1,22 @@
+$(document).ready(function() {
+    $(document).on('click', '#updatedata', function() {
+      var idhalaman = $(this).data('idhalaman')
+      var profile = $(this).data('profile')
+      var notlp = $(this).data('notlp')
+      var email = $(this).data('email')
+      var alamat = $(this).data('alamat')
+      var wa = $(this).data('wa')
+      var facebook = $(this).data('facebook')
+      var instagram = $(this).data('instagram')
+      // console.log(nama$user)
+      $('#idhalaman').val(idhalaman)
+      $('#profile').val(profile)
+      $('#notlp').val(notlp)
+      $('#email').val(email)
+      $('#alamat').val(alamat)
+      $('#wa').val(wa)
+      $('#facebook').val(facebook)
+      $('#instagram').val(instagram)
+
+    })
+  })

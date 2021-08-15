@@ -1,0 +1,202 @@
+.logatas {
+  position: relative;
+  z-index: 1;
+  background-color: #3d2120;
+}
+.logatas img {
+  width: 180px;
+  height: 45px;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logatas P {
+  font-family: "Roboto";
+  font-weight: lighter;
+  font-size: 14px;
+  text-align: center;
+  color: white;
+}
+.navbar {
+  font-family: "lato";
+  font-weight: normal;
+  margin-top: -17px;
+  background-color: #9d5a06;
+  text-align: center;
+  text-transform: uppercase;
+  z-index: 1;
+}
+.nav-link {
+  padding: 5px 0;
+  margin: 0 10px;
+  color: white !important;
+}
+.nav-link:hover {
+  background-color: #d6cbcb;
+  color: #3d2120 !important;
+  border-radius: 4px;
+}
+/* Header */
+
+@media (max-width: 575.98px) {
+  /* header  */
+  .jumbotron img {
+    width: 330px;
+    height: 300px;
+    margin-top: 100px;
+  }
+
+  .info1 {
+    margin-top: 0px;
+  }
+
+  .btn2 {
+    margin-top: 10px;
+  }
+
+  .jumbotron .instagram {
+    margin-top: 30px;
+    margin-left: 50px;
+  }
+
+  .jumbotron h4 {
+    margin-top: -25px;
+  }
+
+  .jumbotron .facebook {
+    margin-top: -43px;
+    margin-right: 50px;
+  }
+
+  /* akhir header */
+
+  /* Profile */
+  .paragraf {
+    font-size: 16px;
+  }
+  .vm h3 {
+    font-size: 20px;
+  }
+  .viewdetail {
+    font-size: 14px;
+    width: 120px;
+    height: 35px;
+    margin-bottom: 20px;
+  }
+  .visi {
+    background-color: #593218;
+    margin: 10px 0;
+    font-size: 14px;
+  }
+  .visi p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .misi {
+    background-color: #9d5a06;
+    font-size: 14px;
+  }
+  .misi p {
+    text-align: center;
+    margin: 10px 0;
+  }
+  .misi p a:hover {
+    color: #d6cbcb !important;
+  }
+  #ornamen2 {
+    display: none;
+  }
+  /* Akhir Profike */
+
+  /* Product */
+  .card {
+    width: 300px;
+  }
+  .next {
+    margin-top: 60px;
+  }
+  .ornamen3 {
+    display: none;
+  }
+  /* Akhir Product */
+
+  /* Franchise */
+  .info2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  /* Akhir Franchise */
+
+  /* Menu About */
+  .about1 {
+    height: 800px;
+  }
+  .tag-line h4 {
+    font-size: 16px;
+  }
+  .ornamen-mid {
+    display: none;
+  }
+
+  .ornamen-mid1 {
+    display: none;
+  }
+
+  /* Akhir Menu About */
+
+  /* Menu Location Mobile */
+  .location h3 {
+    font-size: 18px;
+    padding-bottom: 20px;
+  }
+  .backlok {
+    width: 400px;
+    height: 570px;
+  }
+
+  .backlok img {
+    width: 300px;
+    height: 300px;
+    margin-top: 100px;
+  }
+
+  .tekswilayah {
+    margin-top: -550px;
+  }
+
+  .wilayah1 {
+    margin-left: -40px;
+  }
+  .wilayah2 {
+    margin-right: -50px;
+  }
+  /* Akhir Menu Location Mobile */
+}
+
+@media screen and (max-width: 400px) {
+  .about1 {
+    height: 850px;
+  }
+
+  .location {
+    height: 900px;
+  }
+
+  .location h3 {
+    font-size: 16px;
+  }
+
+  .backlok {
+    width: 350px;
+    height: 700px;
+  }
+
+  .backlok img {
+    margin-top: 150px;
+  }
+
+  .tekswilayah {
+    margin-top: -680px;
+  }
+}
