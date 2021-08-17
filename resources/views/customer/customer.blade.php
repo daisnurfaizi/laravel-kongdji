@@ -157,7 +157,7 @@
         @foreach ($products as $product)
         <div class="col produk">
           <div class="card">
-            <img src="{{ asset('storage/'.$product->photo) }}"class="card-img-top" alt="Gayo-Coffee">
+            <img src="{{ asset('public/storage/'.$product->photo) }}" class="card-img-top" alt="Gayo-Coffee">
             <div class="card-body">
               <h5 class="card-title">{{ $product->product_name }}</h5>
               <p class="card-text"> Rp. {{ $product->price  }} ,- </p>
@@ -168,7 +168,7 @@
           </div>
         </div>
         @endforeach
-        
+
         <div class="col produk next">
           <p id="All"> All Product </p>
           <a href="{{ route('customer-produk') }}#product" class="text-muted"> Click Here --> </a>
@@ -192,7 +192,8 @@
             </div>
             <div class="col-lg info2 text-center">
               <p> Hubungi Kami : </p>
-              <a href="https://wa.me/<?//$data['content'][0]['wa'] ?>?text=">
+              <a href="https://wa.me/<? //$data['content'][0]['wa'] 
+                                      ?>?text=">
                 <img src="{{asset('assets/kongdjie/img/whatsapp.png')}}" alt="WhatsApp">
               </a>
             </div>
@@ -248,7 +249,7 @@
     </div>
     </div>
   </section>
-  
+
   <!-- Akhir Produk -->
 
   <!-- Location -->
@@ -261,43 +262,43 @@
         </div>
       </div>
       {{-- <div class="container overflow-hidden"> --}}
-        
-        <div class="row tekswilayah justify-content-center" >
-          <div class="col-4 text-left" style="z-index: 1;">
-            <a class="wilayah1" href="Franchise/JABODETABEK">JABODETABEK</a>
-            <a class="wilayah1" href="Franchise/JAWA-BARAT">JAWA BARAT</a>
-            <a class="wilayah1" href="Franchise/JAWA-TENGAH">JAWA TENGAH</a>
-            <a class="wilayah1" href="Franchise/JAWA-TIMUR">JAWA TIMUR</a>
-            <a class="wilayah1" href="Franchise/BALI">BALI</a>
-            <a class="wilayah1" href="Franchise/ACEH">ACEH</a>
-            <a class="wilayah1" href="Franchise/SUMATERA-UTARA">SUMATERA UTARA</a>
-            <a class="wilayah1" href="Franchise/SUMATERA-BARAT">SUMATERA BARAT</a>
-            <a class="wilayah1" href="Franchise/SUMATERA-SELATAN">SUMATERA SELATAN</a>
-            <a class="wilayah1" href="Franchise/RIAU">RIAU</a>
-            <a class="wilayah1" href="Franchise/JAMBI">JAMBI</a>
-            <a class="wilayah1" href="Franchise/BENGKULU">BENGKULU</a>
-            <a class="wilayah1" href="Franchise/LAMPUNG">LAMPUNG</a>
-            <a class="wilayah1" href="Franchise/NUSA-TENGARA-TIMUR">NUSA TENGARA TIMUR</a>
-            <a class="wilayah1" href="Franchise/NUSA-TENGARA-BARAT">NUSA TENGARA BARAT</a>
-          </div>
-          <div class="col-4 text-right"style="z-index: 1;" >
-            <a class="wilayah2" href="/Franchise/KEPULAUAN-BANGKA-BELITUNG">KEPULAUAN BANGKA BELITUNG</a>
-            <a class="wilayah2" href="/Franchise/KALIMANTAN-UTARA">KALIMANTAN UTARA</a>
-            <a class="wilayah2" href="/Franchise/KALIMANTAN-SELATAN">KALIMANTAN SELATAN</a>
-            <a class="wilayah2" href="/Franchise/KALIMANTAN-BARAT">KALIMANTAN BARAT</a>
-            <a class="wilayah2" href="/Franchise/KALIMANTAN-TENGAH">KALIMANTAN TENGAH</a>
-            <a class="wilayah2" href="/Franchise/SULAWESI-UTARA">SULAWESI UTARA</a>
-            <a class="wilayah2" href="/Franchise/SULAWESI-BARAT">SULAWESI BARAT</a>
-            <a class="wilayah2" href="/Franchise/SULAWESI-TENGAH">SULAWESI TENGAH</a>
-            <a class="wilayah2" href="/Franchise/SULAWESI-SELATAN">SULAWESI SELATAN</a>
-            <a class="wilayah2" href="/Franchise/SULAWESI-TENGGARA">SULAWESI TENGGARA</a>
-            <a class="wilayah2" href="/Franchise/GORONTALO">GORONTALO</a>
-            <a class="wilayah2" href="/Franchise/MALUKU">MALUKU</a>
-            <a class="wilayah2" href="/Franchise/MALUKU-UTARA">MALUKU UTARA</a>
-            <a class="wilayah2" href="/Franchise/PAPUA-BARAT">PAPUA BARAT</a>
-            <a class="wilayah2" href="/Franchise/PAPUA">PAPUA</a>
-          </div>
+
+      <div class="row tekswilayah justify-content-center">
+        <div class="col-4 text-left" style="z-index: 1;">
+          <a class="wilayah1" href="Franchise/JABODETABEK">JABODETABEK</a>
+          <a class="wilayah1" href="Franchise/JAWA-BARAT">JAWA BARAT</a>
+          <a class="wilayah1" href="Franchise/JAWA-TENGAH">JAWA TENGAH</a>
+          <a class="wilayah1" href="Franchise/JAWA-TIMUR">JAWA TIMUR</a>
+          <a class="wilayah1" href="Franchise/BALI">BALI</a>
+          <a class="wilayah1" href="Franchise/ACEH">ACEH</a>
+          <a class="wilayah1" href="Franchise/SUMATERA-UTARA">SUMATERA UTARA</a>
+          <a class="wilayah1" href="Franchise/SUMATERA-BARAT">SUMATERA BARAT</a>
+          <a class="wilayah1" href="Franchise/SUMATERA-SELATAN">SUMATERA SELATAN</a>
+          <a class="wilayah1" href="Franchise/RIAU">RIAU</a>
+          <a class="wilayah1" href="Franchise/JAMBI">JAMBI</a>
+          <a class="wilayah1" href="Franchise/BENGKULU">BENGKULU</a>
+          <a class="wilayah1" href="Franchise/LAMPUNG">LAMPUNG</a>
+          <a class="wilayah1" href="Franchise/NUSA-TENGARA-TIMUR">NUSA TENGARA TIMUR</a>
+          <a class="wilayah1" href="Franchise/NUSA-TENGARA-BARAT">NUSA TENGARA BARAT</a>
         </div>
+        <div class="col-4 text-right" style="z-index: 1;">
+          <a class="wilayah2" href="/Franchise/KEPULAUAN-BANGKA-BELITUNG">KEPULAUAN BANGKA BELITUNG</a>
+          <a class="wilayah2" href="/Franchise/KALIMANTAN-UTARA">KALIMANTAN UTARA</a>
+          <a class="wilayah2" href="/Franchise/KALIMANTAN-SELATAN">KALIMANTAN SELATAN</a>
+          <a class="wilayah2" href="/Franchise/KALIMANTAN-BARAT">KALIMANTAN BARAT</a>
+          <a class="wilayah2" href="/Franchise/KALIMANTAN-TENGAH">KALIMANTAN TENGAH</a>
+          <a class="wilayah2" href="/Franchise/SULAWESI-UTARA">SULAWESI UTARA</a>
+          <a class="wilayah2" href="/Franchise/SULAWESI-BARAT">SULAWESI BARAT</a>
+          <a class="wilayah2" href="/Franchise/SULAWESI-TENGAH">SULAWESI TENGAH</a>
+          <a class="wilayah2" href="/Franchise/SULAWESI-SELATAN">SULAWESI SELATAN</a>
+          <a class="wilayah2" href="/Franchise/SULAWESI-TENGGARA">SULAWESI TENGGARA</a>
+          <a class="wilayah2" href="/Franchise/GORONTALO">GORONTALO</a>
+          <a class="wilayah2" href="/Franchise/MALUKU">MALUKU</a>
+          <a class="wilayah2" href="/Franchise/MALUKU-UTARA">MALUKU UTARA</a>
+          <a class="wilayah2" href="/Franchise/PAPUA-BARAT">PAPUA BARAT</a>
+          <a class="wilayah2" href="/Franchise/PAPUA">PAPUA</a>
+        </div>
+      </div>
       {{-- </div> --}}
     </div>
   </section>
