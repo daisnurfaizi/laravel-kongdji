@@ -157,7 +157,7 @@
         @foreach ($products as $product)
         <div class="col produk">
           <div class="card">
-            <img src="{{ asset('public/storage/'.$product->photo) }}" class="card-img-top" alt="Gayo-Coffee">
+            <img src="{{ asset('storage/'.$product->photo) }}" class="card-img-top" alt="Gayo-Coffee">
             <div class="card-body">
               <h5 class="card-title">{{ $product->product_name }}</h5>
               <p class="card-text"> Rp. {{ $product->price  }} ,- </p>
