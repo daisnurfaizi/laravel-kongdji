@@ -3,29 +3,29 @@
 @section('content')
 <div class="card card-danger">
     <div class="card-header">
-      <h3 class="card-title">Input Produk</h3>
+        <h3 class="card-title">Input Produk</h3>
     </div>
     <div class="card-body">
-        <form action="{{ route('Produk.store') }}" method="post"  enctype="multipart/form-data">
+        <form action="{{ route('Produk.store') }}" method="post" enctype="multipart/form-data">
             @csrf
             <div class="card-body">
                 @if (Session::has('success'))
                 <div class="alert alert-success">
                     {{ Session::get('success') }}
                 </div>
-            @endif
+                @endif
                 @if(session('errors'))
-                    <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                        Something it's wrong:
-                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                            <span aria-hidden="true">×</span>
-                        </button>
-                        <ul>
+                <div class="alert alert-danger alert-dismissible fade show" role="alert">
+                    Something it's wrong:
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">×</span>
+                    </button>
+                    <ul>
                         @foreach ($errors->all() as $error)
                         <li>{{ $error }}</li>
                         @endforeach
-                        </ul>
-                    </div>
+                    </ul>
+                </div>
                 @endif
                 <div class="form-group">
                     <label for=""><strong>Nama Produk</strong></label>
@@ -44,8 +44,8 @@
                     <input type="file" name="photo" class="form-control" placeholder="Gambar Produk">
                 </div>
                 <div class="form-group">
-                    <label for=""><strong>Whatsapp</strong></label>
-                    <input type="number" name="whatsapp" class="form-control" placeholder="nonor ini akan di gunakan untuk melakukan penesanan">
+                    <label for=""><strong>Whatsapp Nomor ini akan di gunakan untuk order</strong></label>
+                    <input type="number" name="whatsapp" class="form-control" placeholder="62812345678">
                 </div>
                 <div class="form-group">
                     <label for=""><strong>Tokopedia</strong></label>
@@ -64,8 +64,8 @@
                 <button type="submit" class="btn btn-primary btn-block">Tambah Barang</button>
                 {{-- <p class="text-center">Sudah punya akun? <a href="{{ route('login') }}">Login</a> sekarang!</p> --}}
             </div>
-            </form>
+        </form>
     </div>
     <!-- /.card-body -->
-  </div>
+</div>
 @endsection
